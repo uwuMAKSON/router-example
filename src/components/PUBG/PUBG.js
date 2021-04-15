@@ -1,6 +1,6 @@
 import React from 'react';
 import classes from "./PUBG.module.css";
-import images from "../images/PUBG.jpg"
+
 const PUBG = () => {
     return (
 
