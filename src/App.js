@@ -18,22 +18,22 @@ function App() {
  <div className="nav">
    <ul>
    <li>
-     <NavLink activeClassName="active" to="/" exact>PUBG</NavLink>
+     <NavLink activeClassName="active" to="/pubg" exact>PUBG</NavLink>
    </li>
    <li>
-     <NavLink activeClassName="active" to="/">Fortnite</NavLink>
+     <NavLink activeClassName="active" to="/fortnite">Fortnite</NavLink>
    </li>
    <li>
-     <NavLink activeClassName="active" to="/">Freefire</NavLink>
+     <NavLink activeClassName="active" to="/freefire">Freefire</NavLink>
    </li>
    <li>
-     <NavLink activeClassName="active" to="/">Callofduty</NavLink>
+     <NavLink activeClassName="active" to="/callofduty">Callofduty</NavLink>
    </li>
    <li>
-     <NavLink activeClassName="active" to="/">H1Z1</NavLink>
+     <NavLink activeClassName="active" to="/H1Z1">H1Z1</NavLink>
    </li>
    <li>
-     <NavLink activeClassName="active" to="/">ARK</NavLink>
+     <NavLink activeClassName="active" to="ARK/">ARK</NavLink>
    </li>
 
       </ul>

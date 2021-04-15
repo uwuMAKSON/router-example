@@ -1,6 +1,6 @@
 body{
     background-image: url(./components/images/back3.jpg);
-    background-size: 100%;
+    background-size: cover;
 }
 .nav {
     display: flex;
@@ -8,10 +8,10 @@ body{
     text-align: center;
     padding: 20px;
     font-size: 1.2rem;
-    
 }
 li{
     list-style-type: none; 
+    display: inline;
 }
 a {
     
