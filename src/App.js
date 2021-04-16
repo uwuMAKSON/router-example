@@ -5,6 +5,8 @@ import Freefire from './components/Freefire/Freefire';
 import Callofduty from './components/Callofduty/Callofduty';
 import H1Z1 from './components/H1Z1/H1Z1';
 import ARK from './components/ARK/ARK';
+import Apex from './components/Apex/Apex';
+
 import {Route, Switch } from "react-router"
 import { NavLink } from "react-router-dom";
 import './App.css';
@@ -35,6 +37,9 @@ function App() {
    <li>
      <NavLink activeClassName="active" to="ARK/">ARK</NavLink>
    </li>
+   <li>
+     <NavLink activeClassName="active" to="Apex/">Apex</NavLink>
+   </li>
 
       </ul>
       <Logo/>
@@ -49,7 +54,8 @@ function App() {
       <Route path="/callofduty" component={Callofduty} /> 
       <Route path="/H1Z1" component={H1Z1} />
       <Route path="/ARK" component={ARK} />
-      <Route path="/" render={() => <h1> page not found</h1>} />
+      <Route path="/Apex" component={Apex} />
+      {/* <Route path="/" render={() => <h1> page not found</h1>} /> */}
       {/* <Ridirect to="/" />  на главную страницу */}
       </Switch>
     </div>
