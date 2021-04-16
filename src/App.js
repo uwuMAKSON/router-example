@@ -6,6 +6,8 @@ import Callofduty from './components/Callofduty/Callofduty';
 import H1Z1 from './components/H1Z1/H1Z1';
 import ARK from './components/ARK/ARK';
 import Apex from './components/Apex/Apex';
+import Home from './components/Home/Home';
+
 
 import {Route, Switch } from "react-router"
 import { NavLink } from "react-router-dom";
@@ -48,14 +50,15 @@ function App() {
 {/* end navigation */}
 
 <Switch>
-      <Route path="/pubg" component={PUBG} exact />
+<Route path="/" component={Home} exact />
+      <Route path="/pubg" component={PUBG} />
       <Route path="/fortnite" component={Fortnite} /> 
       <Route path="/freefire" component={Freefire} /> 
       <Route path="/callofduty" component={Callofduty} /> 
       <Route path="/H1Z1" component={H1Z1} />
       <Route path="/ARK" component={ARK} />
       <Route path="/Apex" component={Apex} />
-      {/* <Route path="/" render={() => <h1> page not found</h1>} /> */}
+      <Route path="/" render={() => <h1> page not found</h1>} />
       {/* <Ridirect to="/" />  на главную страницу */}
       </Switch>
     </div>
