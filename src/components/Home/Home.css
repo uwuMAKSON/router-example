@@ -23,7 +23,15 @@ border-right: 1px solid red;
 
 
 }
+h3{
+   text-align: center;
+   font-size: 2rem;
+   border-bottom: 1px solid red;
+   max-width: 300px;
+   margin: 50px auto;
+}
 p{
     padding: 40px;
-    line-height: 1.5;
+    line-height: 2;
+    
 }
